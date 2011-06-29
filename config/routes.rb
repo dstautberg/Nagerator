@@ -1,4 +1,7 @@
 Nagerator::Application.routes.draw do
+  match '/auth/:provider/callback', :to => 'sessions#create'
+  resources :to_do_items
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

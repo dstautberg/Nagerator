@@ -8,6 +8,7 @@ gem 'rails', '3.0.6'
 gem 'jdbc-sqlite3'
 gem 'activerecord-jdbcsqlite3-adapter', '1.1.1'
 gem 'omniauth'
+gem 'jruby-openssl'
 
 # Use unicorn as the web server
 # gem 'unicorn'
